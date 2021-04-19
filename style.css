@@ -1,3 +1,9 @@
+/* 
+font-family: 'Mulish', sans-serif; 
+font-family: 'Bitter', serif;
+*/
+
+
 html body {
   margin: 0;
   padding: 0;
@@ -11,9 +17,11 @@ html body {
   color: rgb(228, 228, 228);
   text-align: center;
   line-height: 1px;
+  font-family: 'Mulish', sans-serif; 
 }
 .container h1 {
   display: inline-block;
+  font-family: 'Bitter', serif;
   margin-right: 35px;
   font-size: 5vmax;
   transition: all 500ms;
