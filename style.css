@@ -1,0 +1,46 @@
+html body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(46, 46, 46);
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(228, 228, 228);
+  text-align: center;
+  line-height: 1px;
+}
+.container h1 {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 5vmax;
+  transition: all 500ms;
+  cursor: pointer;
+}
+span:nth-child(2) {
+  text-transform: capitalize;
+  font-size: 2vmax;
+  cursor: pointer;
+}
+.container span {
+  transition: all 500ms;
+  cursor: pointer;
+}
+.container p {
+  text-transform: capitalize;
+  font-size: 3vmax;
+  transition: all 1s;
+  cursor: pointer;
+}
+body .container span:hover,
+h1:hover {
+  letter-spacing: 3px;
+  color: #ffffff;
+  background: #232323;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ffffff,
+  0 0 30px #fff78d, 0 0 40px #ffffff, 0 0 55px #fff78c, 0 0 75px #ffffff;
+  color: #ffffff;
+  background: #232323;
+}
