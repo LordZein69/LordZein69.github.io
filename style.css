@@ -26,11 +26,9 @@ body{
   margin: 0;
   font-family: 'Bitter', serif;
   padding: 0;
+  font-size: 50px;
 }
-.container span{
-  font-family: 'Mulish', sans-serif; 
-  font-size: 20px;
-}
+
 .container button{
   font-size: 30px;
   border: none;
