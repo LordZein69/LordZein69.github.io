@@ -24,7 +24,6 @@ body{
   align-items: center;
   flex-direction: column;
   line-height: 30px;
-  transition: all 1s;
   background-image: url(bg.jpg);
   background-position: right;
   background-size: 500px;
